@@ -5,3 +5,10 @@ version = 4
 [[package]]
 name = "advent_of_rust"
 version = "0.1.0"
+dependencies = [
+ "day_one",
+]
+
+[[package]]
+name = "day_one"
+version = "0.1.0"

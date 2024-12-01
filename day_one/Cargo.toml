@@ -1,7 +1,6 @@
 [package]
-name = "advent_of_rust"
+name = "day_one"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-day_one = {path = "./day_one"}
