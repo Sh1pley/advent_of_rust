@@ -1,8 +1,7 @@
 mod hello;
-pub use crate::hello::hello;
-pub use day_one::works;
+use crate::hello::hello;
+use day_one::works;
 
 fn main() {
 }
-
 
