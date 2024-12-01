@@ -1,7 +1,7 @@
-fn hello() -> String {
-   return String::from("Hello, world!"); 
-}
+mod hello;
+pub use crate::hello::hello;
 
 fn main() {
-    println!("{}", hello());
 }
+
+
